@@ -20,6 +20,12 @@ module.exports = function(environment) {
     }
   };
 
+  ENV['ember-simple-auth'] = {
+    authenticationRoute: 'login',
+    routeAfterAuthentication: 'todos',
+    routeIfAlreadyAuthenticated: 'todos'
+  };
+
   if (environment === 'development') {
     ENV.host = 'http://localhost:8000';
     // ENV.APP.LOG_RESOLVER = true;
