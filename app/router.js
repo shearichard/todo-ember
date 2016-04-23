@@ -17,6 +17,7 @@ Router.map(function() {
       path: ':todo_id'
     });
   });
+  this.route('login');
 });
 
 export default Router;
