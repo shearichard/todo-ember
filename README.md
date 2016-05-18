@@ -1,53 +1,8 @@
 # Todo-ember
+This project is my sandbox to play around with a "Ember front-end / Django back-end" environment (based on https://www.smallsurething.com/making-ember-and-django-play-nicely-together-a-todo-mvc-walkthrough/) 
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project is dependent upon my [todo_django](https://github.com/shearichard/todo-ember) for a backend.
 
-## Prerequisites
+As of [b4ffe4d625c2f715013066254722e18f95d2ac28](https://github.com/shearichard/todo-ember/commit/b4ffe4d625c2f715013066254722e18f95d2ac28) this project corresponds to the end of the  [Making Ember and Django play nicely together: a to-do app walkthrough](https://www.smallsurething.com/making-ember-and-django-play-nicely-together-a-todo-mvc-walkthrough/) article which I followed to create the code in the project.
 
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
-
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
